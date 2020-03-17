@@ -1,0 +1,32 @@
+{
+  "name": "hello-world-aws-lambda-node-typescript-serverless",
+  "version": "1.0.0",
+  "description": "Hello World sample for AWS Lambda + nodejs + typescript + serverless",
+  "main": "src/index.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateek-somaiya/hello-world-aws-lambda-node-typescript-serverless.git"
+  },
+  "keywords": [
+    "AWS",
+    "lambda",
+    "node",
+    "nodejs",
+    "typescript",
+    "serverless"
+  ],
+  "author": "Prateek Somaiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prateek-somaiya/hello-world-aws-lambda-node-typescript-serverless/issues"
+  },
+  "homepage": "https://github.com/prateek-somaiya/hello-world-aws-lambda-node-typescript-serverless#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.46",
+    "@types/node": "^13.9.1",
+    "aws-sdk": "^2.640.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.8.3"
+  }
+}
